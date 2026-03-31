@@ -1,6 +1,6 @@
 Here are the step by step instructions to run this:
 
- I am on windows enviroment I am using python and pip in command , you might have to use python3  and pip3 and you might have to build virtual environment using follwoing command
+ I am on windows enviroment I am using python and pip in command , you might have to use python3  and pip3 as you are on mac and you might have to build virtual environment using follwoing command
  python3 -m venv venv
  source venv/bin/activate
 

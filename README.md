@@ -7,8 +7,8 @@ Here are the step by step instructions to run this:
 
  I am using My Gemini API key you might you have to use yours if my doesnot work for you ( even though its sensitive data , but you may try out )
  You will change 2 lines in code to use your gemini api key , following 2 lines
- GEMINI_API_KEY = "<Your key>"
- GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=<Your key>"
+ GEMINI_API_KEY = "paste your key here"
+ GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=paste your key here"
 
 1)Clone the repo:
 git clone https://github.com/muhammadahmedkhan0459-del/AI-mid-lab.git

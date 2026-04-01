@@ -29,5 +29,8 @@ Try:
 python3 -m uvicorn main:app --reload  
 
 6)Then open : 127.0.0.1:8000/docs in your browser , you will see swagger UI , click on /secure-gateway endpoint and click Try it out  
-Then you will see Json " str : text "  
-To enter your input : replace the "text" word with your prompt for LLM , you can try variety of those to check responses.
+Then you will see Json
+{
+  "text": "string"
+}
+To enter your input : replace the "string" word with your prompt for LLM , you can try variety of those to check responses.

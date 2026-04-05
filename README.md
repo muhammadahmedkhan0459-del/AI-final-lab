@@ -29,17 +29,12 @@ Try:
 python3 -m uvicorn main:app --reload  
 
 6)Then open : 127.0.0.1:8000/docs in your browser , you will see swagger UI , click on /secure-gateway endpoint and click Try it out  
-Then you will see Json
+Then you will see Json  
 {
   "text": "string"
-}
+}  
 To enter your input : replace the "string" word with your prompt for LLM , you can try variety of those to check responses.
 
-If there are issues in the python environment , You can first enable virtual environment in python by 
-1) Open Terminal and run:
-python3 -m venv myenv ( This is for mac , in windows you write python not python3 )
-2)If you use bash or zsh 
- myenv/bin/activate
- ---> ( This is for mac , in my windows it is venv\Scripts\activate )
-If you use fish shell instead of bash or zsh:
-source myenv/bin/activate.fish
+Open Terminal and run: python3 -m venv myenv ( This is for mac , in windows you write python not python3 )  
+2)If you use bash or zsh: myenv/bin/activate ---> ( This is for mac , in my windows it is venv\Scripts\activate )  
+If you use fish shell instead of bash or zsh: source myenv/bin/activate.fish

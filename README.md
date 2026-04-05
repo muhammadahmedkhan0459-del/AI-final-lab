@@ -36,7 +36,7 @@ Then you will see Json
 To enter your input : replace the "string" word with your prompt for LLM , you can try variety of those to check responses.
 
 
-If there are issues in your python env , try this     
-Open Terminal and run: python3 -m venv myenv ( This is for mac , in windows you write python not python3 )  
+If there are issues in your python environment , try this     
+1)Open Terminal and run: python3 -m venv myenv ( This is for mac , in windows you write python not python3 )  
 2)If you use bash or zsh: myenv/bin/activate ---> ( This is for mac , in my windows it is venv\Scripts\activate )  
 If you use fish shell instead of bash or zsh: source myenv/bin/activate.fish

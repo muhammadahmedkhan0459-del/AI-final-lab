@@ -11,8 +11,8 @@ app = FastAPI(title="LLM Security Gateway Demo")
 class UserInput(BaseModel):
     text: str
 
-GEMINI_API_KEY = "AIzaSyBLtv6ulgDOmi-1T4gGWOLxNYKtLwi59OA"
-GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBLtv6ulgDOmi-1T4gGWOLxNYKtLwi59OA"
+GEMINI_API_KEY = "xxx"
+GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=xxx"
 
 BLOCK_THRESHOLD   = 5
 WARNING_THRESHOLD = 3

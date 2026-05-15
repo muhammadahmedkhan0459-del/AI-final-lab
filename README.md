@@ -16,7 +16,13 @@ git clone https://github.com/muhammadahmedkhan0459-del/AI-mid-lab.git
 cd AI-mid-lab  
 
 3) Installed required dependencies  
-pip install fastapi uvicorn requests presidio-analyzer presidio-anonymizer spacy  
+pip install fastapi uvicorn requests presidio-analyzer presidio-anonymizer spacy
+pip install scikit-learn
+pip install joblib
+pip install datasets ( because we got some prompts from huggingface dataset which we downloaded and set in build_dataset.py)
+pip install langdetect langid  ( to convert non-english sentence to english)
+pip install pandas ( to deal with csv)
+
 
 4)Installed required dependencies ( you can also install en_core_web_lg in place of en_core_web_sm)  
 python -m spacy download en_core_web_sm  

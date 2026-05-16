@@ -10,10 +10,10 @@ GEMINI_API_KEY = "paste your key here"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=paste your key here"  
 
 1)Clone the repo:  
-git clone https://github.com/muhammadahmedkhan0459-del/AI-mid-lab.git  
+git clone https://github.com/muhammadahmedkhan0459-del/AI-final-lab.git  
 
 2) Navigate to folder  
-cd AI-mid-lab  
+cd AI-final-lab  
 
 3) Installed required dependencies  
 pip install fastapi uvicorn requests presidio-analyzer presidio-anonymizer spacy
